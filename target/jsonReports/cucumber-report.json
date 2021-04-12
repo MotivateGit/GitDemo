@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-31T02:25:21.555Z",
+        "start_timestamp": "2021-04-12T11:07:57.463Z",
         "line": 15,
         "name": "Verify if place is being successfully added using AddPlaceAPI",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 740000000,
+              "duration": 658000000,
               "status": "passed"
             },
             "line": 6,
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 1480000000,
+              "duration": 1375000000,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 398000000,
+              "duration": 415000000,
               "status": "passed"
             },
             "line": 9,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 10,
@@ -123,7 +123,7 @@
           },
           {
             "result": {
-              "duration": 2181000000,
+              "duration": 2353000000,
               "status": "passed"
             },
             "line": 11,
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-31T02:25:26.416Z",
+        "start_timestamp": "2021-04-12T11:08:02.321Z",
         "before": [
           {
             "result": {
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 2219000000,
+              "duration": 2223000000,
               "status": "passed"
             },
             "line": 24,

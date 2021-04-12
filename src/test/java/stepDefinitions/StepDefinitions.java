@@ -15,6 +15,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import pojo.AddPlace;
 import pojo.Location;
+import org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
 
