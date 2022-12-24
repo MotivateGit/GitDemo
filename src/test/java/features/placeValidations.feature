@@ -1,4 +1,3 @@
-//Author by Bharathiraja
 
 Feature: Validating Place API's
 
