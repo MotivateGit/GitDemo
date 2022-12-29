@@ -1,10 +1,10 @@
 [
   {
-    "line": 1,
+    "line": 4,
     "elements": [
       {
-        "start_timestamp": "2021-04-12T11:07:57.463Z",
-        "line": 15,
+        "start_timestamp": "2022-12-27T02:04:56.553Z",
+        "line": 18,
         "name": "Verify if place is being successfully added using AddPlaceAPI",
         "description": "",
         "id": "validating-place-api-s;verify-if-place-is-being-successfully-added-using-addplaceapi;;2",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 658000000,
+              "duration": 1246000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "Add place payload with \"AAhouse\" \"English\" \"World Cross Center\"",
             "match": {
               "arguments": [
@@ -39,10 +39,10 @@
           },
           {
             "result": {
-              "duration": 1375000000,
+              "duration": 1672000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
             "match": {
               "arguments": [
@@ -61,10 +61,10 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 5000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "the API call got success with status code 200",
             "match": {
               "arguments": [
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 415000000,
+              "duration": 577000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "\"status\" in response body is \"OK\"",
             "match": {
               "arguments": [
@@ -101,10 +101,10 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 11000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "\"scope\" in response body is \"APP\"",
             "match": {
               "arguments": [
@@ -123,10 +123,10 @@
           },
           {
             "result": {
-              "duration": 2353000000,
+              "duration": 787000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 14,
             "name": "verify place_id is created and it mapped \"AAhouse\" using \"getPlaceAPI\"",
             "match": {
               "arguments": [
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-12T11:08:02.321Z",
+        "start_timestamp": "2022-12-27T02:05:00.950Z",
         "before": [
           {
             "result": {
@@ -165,7 +165,7 @@
             }
           }
         ],
-        "line": 21,
+        "line": 24,
         "name": "Verify if Delete Place API is working",
         "description": "",
         "id": "validating-place-api-s;verify-if-delete-place-api-is-working",
@@ -174,10 +174,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "DeletePlace Payload",
             "match": {
               "location": "stepDefinitions.StepDefinitions.delete_place_payload()"
@@ -186,10 +186,10 @@
           },
           {
             "result": {
-              "duration": 2223000000,
+              "duration": 928000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "user calls \"deletePlaceAPI\" with \"POST\" http request",
             "match": {
               "arguments": [
@@ -210,7 +210,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 25,
+            "line": 28,
             "name": "the API call got success with status code 200",
             "match": {
               "arguments": [
@@ -228,7 +228,7 @@
               "duration": 11000000,
               "status": "passed"
             },
-            "line": 26,
+            "line": 29,
             "name": "\"status\" in response body is \"OK\"",
             "match": {
               "arguments": [
